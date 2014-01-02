@@ -11,6 +11,8 @@ server.on('request', function(request, response) {
 		response.write("Dog is done.")		
 	response.end();
 	}, 5000);
-}).listen(8080);
+});
+
+server.listen(8080);
 
 console.log("Listening on port 8080...")
